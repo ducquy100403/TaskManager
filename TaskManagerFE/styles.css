@@ -1,0 +1,30 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.task-card {
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 15px;
+    background-color: #fff;
+}
+
+.task-title {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.btn-delete {
+    color: red;
+    cursor: pointer;
+}
+
+.sortable-ghost {
+    opacity: 0.4;
+}
